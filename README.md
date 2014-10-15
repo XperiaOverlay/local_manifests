@@ -16,7 +16,7 @@ mkdir -p ~/android/system
 
 # Initialize the CyanogenMod source repository
 
-enter this in the terminal (without the -------)
+enter this in the terminal
 --------------------
 cd ~/android/system/
 --------------------
@@ -28,7 +28,7 @@ repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 
 # Get the required local manifest to build for es209ra
 
-enter this in the terminal (without the -------)
+enter this in the terminal
 -----------------------------------------------
 mkdir -p ~/android/system/.repo/local_manifests
 -----------------------------------------------
@@ -40,14 +40,14 @@ curl https://raw.githubusercontent.com/XperiaOverlay/local_manifests/CM11/semc.x
 
 # Download the source code
 
-enter this in the terminal (without the -------)
+enter this in the terminal
 ---------
 repo sync
 ---------
 
 # Get the CM prebuilts
 
-enter this in the terminal (without the -------)
+enter this in the terminal
 -----------------------------
 cd ~/android/system/vendor/cm
 -----------------------------
@@ -61,7 +61,7 @@ then this :
 
 # Compile:
 
-enter this in the terminal (without the -------)
+enter this in the terminal
 -------------------
 cd ~/android/system
 -------------------
