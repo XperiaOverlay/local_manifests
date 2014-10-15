@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove Update checker of Cyanogenmod -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+</manifest>

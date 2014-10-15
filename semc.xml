@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="XperiaOverlay/local_manifests" path="vendor/extra" />
+
+  <!-- XperiaOverlay Device tree for es209ra (Tof37, Achotjan) -->
+
+  <project name="XperiaOverlay/android_device_semc_es209ra" path="device/semc/es209ra" />
+  <project name="XperiaOverlay/android_vendor_semc_es209ra" path="vendor/semc/es209ra" />
+  <project name="XperiaOverlay/android_hardware_atheros_wifi_libs" path="hardware/atheros/wifi/libs" />
+  <project name="XperiaOverlay/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" />
+
+  <!-- Remove projects that are not needed -->
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+
+</manifest>
